@@ -1,0 +1,13 @@
+1. 
+patience=100 > 30
+
+2. 15:30 
+num_transformer_blocks 4 > 3
+mlp_dropout= 0.4 > 0.3
+dropout=0.4 > 0.3
+batch = 15 > 32
+patience=30 > 50
+
+3. 
+learning_rate = 0.001 > 0.002
+batch = 32 > 64
