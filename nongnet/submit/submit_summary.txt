@@ -11,3 +11,20 @@ patience=30 > 50
 3. 
 learning_rate = 0.001 > 0.002
 batch = 32 > 64
+
+4.
+num_transformer_blocks=4 > 5
+batch = 64 > 128
+
+5.
+num_transformer_blocks=4 > 3
+
+6.
+batch = 128 > 32
+
+7. 
+batch = 128 > 64 (현재까지 최적)
++
+y = y[14 > 56:]
+data_x = time_window(x, 13 > 55, 1)
+zero_csv = [0 for i in range(14 > 56)]
