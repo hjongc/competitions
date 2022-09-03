@@ -23,8 +23,12 @@ num_transformer_blocks=4 > 3
 batch = 128 > 32
 
 7. 
-batch = 128 > 64 (현재까지 최적)
+(batch = 128 > 64 (현재까지 최적)
 +
 y = y[14 > 56:]
 data_x = time_window(x, 13 > 55, 1)
-zero_csv = [0 for i in range(14 > 56)]
+zero_csv = [0 for i in range(14 > 56)])
+
+dataset edit
+
+
