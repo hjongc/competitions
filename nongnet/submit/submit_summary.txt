@@ -30,3 +30,8 @@ data_x = time_window(x, 13 > 55, 1)
 zero_csv = [0 for i in range(14 > 56)])//
 
 dataset edit
+
+8. 
+conda install pytorch torchvision torchaudio -c pytorch
+
+mlp_units=[128 > 256],
