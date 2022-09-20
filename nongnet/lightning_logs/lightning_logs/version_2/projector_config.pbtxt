@@ -1,0 +1,5 @@
+embeddings {
+  tensor_name: "group_id:03000"
+  metadata_path: "03000/group_id/metadata.tsv"
+  tensor_path: "03000/group_id/tensors.tsv"
+}
