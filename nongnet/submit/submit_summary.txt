@@ -56,3 +56,37 @@ market_cols, weather 파생, cost_time
 14 + market_statistics_cols
 0.2889177	
 
+16.
+15 + export_cols
+7.6890577	
+
+17.
+market_cols = ['단가(원)', '거래량']
+market_statistics_cols = ['해당일자_전체거래물량(kg)', '일자별_도매가격_평균(원)','하위가격 평균가(원)', '상위가격 평균가(원)' ]
+date_cols = ['cos_time']
+weather_cols = ['주산지_초기온도','주산지_최대온도', '주산지_최저온도', '주산지_평균온도', '주산지_강수량'] 
+0.2970936
+
+18.
+market_statistics_cols = ['해당일자_전체평균가격(원)', '해당일자_전체거래물량(kg)', '일자별_소매가격_최대(원)', '일자별_소매가격_평균(원)', '일자별_소매가격_최소(원)'] 
+date_cols = ['datadate', 'cos_time'] 
+weather_cols = ['주산지_초기온도', '주산지_최대온도', '주산지_최저온도', '주산지_평균온도', '주산지_강수량'] 
+	
+
+19.
+market_cols
+market_statistics_cols
+date_cols
+weather_cols
+0.2136913
+
+20.
+ff_dim=3,
+num_transformer_blocks=4,
+lr = 0.0015
+
+21.
+ff_dim=3,
+num_transformer_blocks=3,
+lr = 0.001
+
