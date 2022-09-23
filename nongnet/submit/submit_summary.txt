@@ -89,4 +89,18 @@ lr = 0.0015
 ff_dim=3,
 num_transformer_blocks=3,
 lr = 0.001
+0.2138559
+
+22.
+def train(x_train, y_train, x_val, y_val, name, epoch, batch_size, learning_rate = 0.001, verbose = 0):
+    model = build_model(
+    x_train.shape[1:],
+    head_size=128,
+    num_heads=3,
+    ff_dim=3,
+    num_transformer_blocks=3,
+    mlp_units=[64],
+    mlp_dropout=0.2,
+    dropout=0.2,
+    )
 
