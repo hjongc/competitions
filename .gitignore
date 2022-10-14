@@ -35010,3 +35010,4 @@ predict_inactive/dataset/휴폐업 중소법인 재무보유.xlsx
 *.jpg
 *.png
 *.npy
+data_creator/np_converted_dataset.zip
